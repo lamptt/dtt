@@ -193,9 +193,9 @@ table{
     margin-left: 3%;
 }
 .u93-2{
-    margin-top: 2%;
-    margin-left: 3%;
+    margin-top: 5%;
     line-height: 2;
+    margin-left: 3%;
 }
 .u93-2 p{
     color: #00F;
@@ -272,4 +272,13 @@ input[type='radio']{
     line-height: 1;
     width: 90%;
     background-color: #ffffff;
+    height: 600px;
+}
+.u93-2-1{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.u93-2-2{
+    margin-top: 50px;
 }
