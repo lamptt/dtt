@@ -58,8 +58,8 @@ table{
 }
 #u9_rtf button{
     color: #FFFFFF;
-    width: 150px;
-    height: 30px;
+    width: 180px;
+    height: 35px;
     font-weight: bold;
     background: #5cac12;
     border: 1px solid #e3e3e3;
@@ -67,8 +67,8 @@ table{
     margin-right: 2%;
 }
 #u9_rtf button.TroVe-pv,#u9_rtf button.Suacongvan-pv,#u9_rtf button.PheDuyet{
-    width: auto;
-    height: 30px;
+    width: 100px;
+    height: 35px;
 }
 
 #u9_rtf{
@@ -195,6 +195,7 @@ table{
 .u93-2{
     margin-top: 2%;
     margin-left: 3%;
+    line-height: 2;
 }
 .u93-2 p{
     color: #00F;
@@ -270,4 +271,5 @@ input[type='radio']{
     border: 1px solid #d5d5d5 !important;
     line-height: 1;
     width: 90%;
+    background-color: #ffffff;
 }
