@@ -142,9 +142,7 @@ input[type=text]{
     margin-left: 3%;
 }
 .sc-1{
-    margin-top: 2%;
-    margin-left: 2%;
-    padding-top: 2%;
+    padding: 2%;
 }
 
 .sc-1 p{
@@ -256,4 +254,7 @@ input[type='radio']{
 }
 .u33-title{
     margin-left: 5%;
+}
+.u38-title{
+    margin-left: 2%;
 }
