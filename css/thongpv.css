@@ -45,18 +45,20 @@ table{
 .wrap-content{
     background-color: white;
 }
-input[type=text]{
+#u33 input[type=text]{
     width: 200px;
     height: 30px;
 }
-
+#u50{
+    line-height: 2;
+}
 #u9{
     margin-top: 30px;
     margin-bottom: 10px;
 }
 #u9_rtf button{
     color: #FFFFFF;
-    width: auto;
+    width: 150px;
     height: 30px;
     font-weight: bold;
     background: #5cac12;
@@ -74,6 +76,7 @@ input[type=text]{
 #u9_rtf{
     margin: 10px 20px;
 }
+
 .sc-table-2{
     width: 96%;
     margin-top:20px;
@@ -248,6 +251,7 @@ input[type='radio']{
 .u33-1{
     width: 90%;
     margin-left: 5%;
+    margin-top: 20px;
 }
 #u33{
     margin-left: 5%;
