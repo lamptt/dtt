@@ -228,7 +228,7 @@ button
 {
     padding: 3px;
 }
-.body-content th, td
+.container th, .container td
 {
     padding: 5px;
 }
