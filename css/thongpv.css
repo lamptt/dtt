@@ -53,7 +53,6 @@ input[type=text]{
 #u9{
     margin-top: 30px;
     margin-bottom: 10px;
-    margin-left: 2%;
 }
 #u9_rtf button{
     color: #FFFFFF;
@@ -66,7 +65,7 @@ input[type=text]{
     margin-right: 2%;
 }
 #u9_rtf button.TroVe-pv,#u9_rtf button.Suacongvan-pv,#u9_rtf button.PheDuyet{
-    width: 120px;
+    width: auto;
     height: 30px;
 }
 #u9_rtf button:hover{
@@ -76,7 +75,7 @@ input[type=text]{
     margin: 10px 20px;
 }
 .sc-table-2{
-    width: 100%;
+    width: 96%;
     margin-top:20px;
 }
 
@@ -227,4 +226,24 @@ input[type='radio']{
 .u18-table{
     width: 97%;
     margin-right: 2%;
+}
+.u24-title{
+    margin-top: 10px;
+    margin-left: 2%;
+}
+
+.u24{
+    width: 90%;
+    border: 1px solid #D5D5D5;
+    box-shadow: 5px 5px 5px #888;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.u24 p{
+    margin-right: 5%;
+}
+.u24-1{
+    width: 80%;
+    margin-left: 10%;
 }
