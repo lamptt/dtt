@@ -221,3 +221,10 @@ input[type='radio']{
     border: 1px solid #D5D5D5 !important;
     background-color: #ffffff;
 }
+.u18-table,.u18-1{
+    margin-left: 2%;
+}
+.u18-table{
+    width: 97%;
+    margin-right: 2%;
+}
