@@ -7,10 +7,12 @@ table{
 }
 .u1{
     margin-top: 30px;
+    margin-left: 2%;
 }
 
 .u2{
     margin-top: 30px;
+    margin-left: 2%;
     font-family:Arial;
     font-size:13px;
     font-weight:bold;
@@ -20,6 +22,7 @@ table{
 
 #u113{
     margin-top: 10px;
+    margin-left: 2%;
     width: 387px;
     height: 30px;
     font-family: 'Arial';
@@ -30,6 +33,7 @@ table{
 }
 #u115{
     margin-top:10px;
+    margin-left: 2%;
     width: 387px;
     height: 30px;
     font-family: 'Arial';
@@ -49,6 +53,7 @@ input[type=text]{
 #u9{
     margin-top: 30px;
     margin-bottom: 10px;
+    margin-left: 2%;
 }
 #u9_rtf button{
     color: #FFFFFF;
@@ -212,3 +217,7 @@ input[type='radio']{
 .u16_rtf{
     margin-left: 2%;
  }
+.u18-body{
+    border: 1px solid #D5D5D5 !important;
+    background-color: #ffffff;
+}
