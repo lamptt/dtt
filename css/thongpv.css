@@ -197,7 +197,6 @@ table{
 .u93-2{
     margin-top: 2%;
     margin-left: 3%;
-    width: 100%;
 }
 .u93-2 p{
     color: #00F;
@@ -261,4 +260,16 @@ input[type='radio']{
 }
 .u38-title{
     margin-left: 2%;
+}
+.u91{
+    margin-top: 2%;
+    line-height: 2;
+}
+.u93-body{
+    border: 1px solid #d5d5d5;
+}
+.u93-3{
+    border: 1px solid #d5d5d5 !important;
+    line-height: 1;
+    width: 90%;
 }
