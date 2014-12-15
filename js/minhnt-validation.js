@@ -56,25 +56,25 @@ $(document).ready(function () {
             },
             SelectPX:{
                 required:"Chưa chọn phường xã"
-            },
+            }
         },
         errorClass: "error",
         highlight: function (label) {
             $(label).removeClass('error');
         },
         submitHandler: function(form) {
-        form.submit();
-    }
+            form.submit();
+        }
     });
-	
-	$('.form25').validate({
+
+    $('.form25').validate({
         rules: {
             Select1: {
                 required: true
             },
             Select2: {
                 required: true
-            },
+            }
 
         },
         messages: {
@@ -83,18 +83,18 @@ $(document).ready(function () {
             },
             Select2:{
                 required:"Chưa chọn chức vụ"
-            },
+            }
         },
         errorClass: "error",
         highlight: function (label) {
             $(label).removeClass('error');
         },
         submitHandler: function(form) {
-        form.submit();
-    }
+            form.submit();
+        }
     });
-	
-	
+
+
     $('.form31').validate({
         rules: {
             TenDN: {
@@ -121,10 +121,10 @@ $(document).ready(function () {
             },
             NoiDung: {
                 required: true
-            },	
+            },
             checkbox1: {
                 required: true
-            },				
+            }
         },
         messages: {
             TenDN:{
@@ -158,20 +158,20 @@ $(document).ready(function () {
             },
             checkbox1:{
                 required:" Chưa chọn loại hình sản xuất "
-            },			
-			
+            }
+
         },
         errorClass: "error",
         highlight: function (label) {
             $(label).removeClass('error');
         },
         submitHandler: function(form) {
-        form.submit();
-    }
-    });	
-	
+            form.submit();
+        }
+    });
 
-	$('.form49').validate({
+
+    $('.form49').validate({
         rules: {
             SelectCC: {
                 required: true
@@ -181,7 +181,7 @@ $(document).ready(function () {
             },
             DateTime: {
                 required: true
-            },			
+            }
 
         },
         messages: {
@@ -193,18 +193,18 @@ $(document).ready(function () {
             },
             DateTime: {
                 required:"Chưa nhập ngày tháng"
-            },			
+            }
         },
         errorClass: "error",
         highlight: function (label) {
             $(label).removeClass('error');
         },
         submitHandler: function(form) {
-        form.submit();
-    }
-    });	
-	
-	$('.form70').validate({
+            form.submit();
+        }
+    });
+
+    $('.form70').validate({
         rules: {
             SelectCB: {
                 required: true
@@ -214,7 +214,7 @@ $(document).ready(function () {
             },
             DateTime2: {
                 required: true
-            },			
+            }
 
         },
         messages: {
@@ -226,18 +226,18 @@ $(document).ready(function () {
             },
             DateTime2: {
                 required:"Chưa nhập ngày tháng"
-            },			
+            }
         },
         errorClass: "error",
         highlight: function (label) {
             $(label).removeClass('error');
         },
         submitHandler: function(form) {
-        form.submit();
-    }
-    });	
-	
-	$('.form54').validate({
+            form.submit();
+        }
+    });
+
+    $('.form54').validate({
         rules: {
             KinhGui: {
                 required: true
@@ -265,7 +265,7 @@ $(document).ready(function () {
             },
             GiayTo: {
                 required: true
-            }				
+            }
 
         },
         messages: {
@@ -295,21 +295,21 @@ $(document).ready(function () {
             },
             SelectPX:{
                 required:"Chưa chọn phường xã"
-            },		
+            },
             GiayTo:{
                 required:"Chưa điền nội dung giấy tờ"
-            },				
+            }
         },
         errorClass: "error",
         highlight: function (label) {
             $(label).removeClass('error');
         },
         submitHandler: function(form) {
-        form.submit();
-    }
-    });	
-	
-	$('.form75').validate({
+            form.submit();
+        }
+    });
+
+    $('.form75').validate({
         rules: {
             CanBo: {
                 required: true
@@ -319,7 +319,7 @@ $(document).ready(function () {
             },
             XacNhan: {
                 required: true
-            },
+            }
 
         },
         messages: {
@@ -331,18 +331,18 @@ $(document).ready(function () {
             },
             XacNhan: {
                 required: " Chưa đánh dấu xác nhận "
-            },			
+            }
         },
         errorClass: "error",
         highlight: function (label) {
             $(label).removeClass('error');
         },
         submitHandler: function(form) {
-        form.submit();
-    }
-    });		
+            form.submit();
+        }
+    });
 
-	$('.form47').validate({
+    $('.form47').validate({
         rules: {
             TenDN: {
                 required: true, minlength: 4
@@ -368,10 +368,10 @@ $(document).ready(function () {
             },
             NoiDung: {
                 required: true
-            },	
+            },
             checkbox1: {
                 required: true
-            },				
+            }
         },
         messages: {
             TenDN:{
@@ -405,19 +405,19 @@ $(document).ready(function () {
             },
             checkbox1:{
                 required:" Chưa chọn loại hình sản xuất "
-            },			
-			
+            }
+
         },
         errorClass: "error",
         highlight: function (label) {
             $(label).removeClass('error');
         },
         submitHandler: function(form) {
-        form.submit();
-    }
-    });	
-	
-	$('.formDK').validate({
+            form.submit();
+        }
+    });
+
+    $('.formDK').validate({
         rules: {
             SDK: {
                 required: true
@@ -446,18 +446,18 @@ $(document).ready(function () {
             SDT: {
                 required: true
             },
-			Email: {
+            Email: {
                 required: true
             },
-			NguoiDD: {
+            NguoiDD: {
                 required: true
             },
-			SDT_DD: {
+            SDT_DD: {
                 required: true
             },
-			ChucVu_DD: {
+            ChucVu_DD: {
                 required: true
-            },
+            }
         },
         messages: {
             SDK: {
@@ -487,28 +487,28 @@ $(document).ready(function () {
             SDT: {
                 required: "Chưa nhập số điện thoại"
             },
-			Email: {
+            Email: {
                 required: "Chưa nhập email"
             },
-			NguoiDD: {
+            NguoiDD: {
                 required: "Chưa nhập người đại diện"
             },
-			SDT_DD: {
+            SDT_DD: {
                 required: "Chưa nhập số điện thoại"
             },
-			ChucVu_DD: {
+            ChucVu_DD: {
                 required: "Chưa nhập chức vụ"
-            },
+            }
         },
         errorClass: "error",
         highlight: function (label) {
             $(label).removeClass('error');
         },
         submitHandler: function(form) {
-        form.submit();
-    }
+            form.submit();
+        }
     });
-	
-	
-})
+
+
+});
 
