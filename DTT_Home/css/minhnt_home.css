@@ -169,6 +169,19 @@ border-collapse: collapse;
 padding:5px;
 }
 
+.td_tm1
+{ 
+	width:30%;
+}
 
+.redborder_tm2
+{ 
+	border: 1px solid #ff6666 !important;
+	padding:25px;
+}
 
+.td_tm2
+{
+	padding:15px !important;
+}
 
